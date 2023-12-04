@@ -1,7 +1,8 @@
 .header {
   display: flex;
   justify-content: center;
-  margin: 24px
+  padding: 24px;
+  background-color: #EDEFEE;
 }
 
 .logo {

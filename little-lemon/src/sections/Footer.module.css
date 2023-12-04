@@ -1,0 +1,28 @@
+.footer { 
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  padding: 24px;
+  background-color: #333333;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: normal;
+}
