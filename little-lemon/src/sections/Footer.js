@@ -4,7 +4,7 @@ import image from '../icons_assets/Logo.svg'
 export function Footer() {
   return (
     <footer className={styles.footer}>
-      <img src={image} alt="Image" className={styles.image} />
+      <img src={image} alt="Logo" className={styles.image} />
       <ul className={styles.list}>
         <li><a className={styles.link} href="/home">Home</a></li>
         <li><a className={styles.link} href="/about">About</a></li>
