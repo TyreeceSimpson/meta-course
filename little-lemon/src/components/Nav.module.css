@@ -1,0 +1,12 @@
+.nav { 
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: normal;
+}
