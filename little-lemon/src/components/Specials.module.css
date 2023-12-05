@@ -1,0 +1,44 @@
+.specials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 36px;
+  background-color: #FFF;
+  gap: 64px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.sectionTitle {
+  font-size: 64px;
+  color: #333333;
+  margin: 0;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  background-color: #F4CE14;
+  border: none;
+  border-radius: 16px;
+  font-size: 18px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding-left: 36px;
+  padding-right: 36px;
+  flex-wrap: wrap;
+}

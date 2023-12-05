@@ -1,5 +1,5 @@
 import image from '../icons_assets/restauranfood.jpg'
-import styles from '../sections/Main.module.css'
+import styles from './Hero.module.css'
 
 export function Hero() {
   return (
