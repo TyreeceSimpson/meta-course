@@ -3,7 +3,7 @@ import greekSalad from '../../icons_assets/greek salad.jpg'
 import bruchetta from '../../icons_assets/bruchetta.svg'
 import lemonDessert from '../../icons_assets/lemon dessert.jpg'
 import styles from './Specials.module.css'
-import { Button } from '../atoms/Button'
+import { Button } from '../molecules/Button'
 
 export function Specials() {
   return (
