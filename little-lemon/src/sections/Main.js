@@ -1,3 +1,4 @@
+import { About } from '../components/organisms/About'
 import { Hero } from '../components/organisms/Hero'
 import { Specials } from '../components/organisms/Specials'
 import { Testimonials } from '../components/organisms/Testimonials'
@@ -8,6 +9,7 @@ export function Main() {
       <Hero />
       <Specials />
       <Testimonials />
+      <About />
     </main>
   )
 }
