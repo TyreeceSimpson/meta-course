@@ -5,6 +5,7 @@
   padding: 36px;
   background-color: #495E57;
   gap: 36px;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -46,4 +47,41 @@
   height: 325px;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.specials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 90px;
+  background-color: #FFF;
+  gap: 64px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.sectionTitle {
+  font-size: 64px;
+  color: #333333;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding-left: 36px;
+  padding-right: 36px;
+  flex-wrap: wrap;
 }
