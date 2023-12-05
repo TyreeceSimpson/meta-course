@@ -1,5 +1,5 @@
-import { Hero } from '../components/Hero'
-import { Specials } from '../components/Specials'
+import { Hero } from '../components/organisms/Hero'
+import { Specials } from '../components/organisms/Specials'
 
 export function Main() {
   return (

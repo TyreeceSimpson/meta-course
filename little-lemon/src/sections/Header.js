@@ -1,4 +1,4 @@
-import { Nav } from '../components/Nav'
+import { Nav } from '../components/organisms/Nav'
 import logo from '../icons_assets/Logo.svg'
 import styles from './Header.module.css'
 

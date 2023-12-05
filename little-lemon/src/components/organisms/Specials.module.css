@@ -23,17 +23,6 @@
   margin: 0;
 }
 
-.button {
-  width: 200px;
-  height: 60px;
-  background-color: #F4CE14;
-  border: none;
-  border-radius: 16px;
-  font-size: 18px;
-  color: #333333;
-  cursor: pointer;
-}
-
 .menu {
   display: flex;
   flex-direction: row;

@@ -1,15 +1,16 @@
-import { MenuItem } from '../components/MenuItem'
-import greekSalad from '../icons_assets/greek salad.jpg'
-import bruchetta from '../icons_assets/bruchetta.svg'
-import lemonDessert from '../icons_assets/lemon dessert.jpg'
+import { MenuItem } from '../molecules/MenuItem'
+import greekSalad from '../../icons_assets/greek salad.jpg'
+import bruchetta from '../../icons_assets/bruchetta.svg'
+import lemonDessert from '../../icons_assets/lemon dessert.jpg'
 import styles from './Specials.module.css'
+import { Button } from '../atoms/Button'
 
 export function Specials() {
   return (
     <section className={styles.specials}>
       <header className={styles.header}>
         <h2 className={styles.sectionTitle}>This Weeks Specials!</h2>
-        <button className={styles.button}>Online Menu</button>
+        <Button text="Online Menu" />
       </header>
       <div className={styles.menu}>
         <MenuItem image={greekSalad} title="Greek Salad" price="£12.99" text="The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons." />
