@@ -1,15 +1,13 @@
-import { Header } from './sections/Header';
-import { Main } from './sections/Main';
-import { Footer } from './sections/Footer';
+import { Routes, Route } from 'react-router-dom'
+import { Home } from './Home'
 
 function App() {
   return (
-    <>
-    <Header/>
-    <Main/>
-    <Footer/>
-    </>
-  );
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/reservations" element={<Home />}></Route>
+    </Routes>
+  )
 }
 
-export default App;
+export default App
