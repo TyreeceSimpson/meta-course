@@ -1,0 +1,43 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  background-color: #495E57;
+  width: 200px;
+  height: 150px;
+  padding: 24px;
+  gap: 12px;
+}
+
+.review > h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #F4CE14;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.content > img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.content > h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #EDEFEE;
+  font-weight: normal;
+}
+
+.review > p {
+  margin: 0;
+  font-size: 16px;
+  color: #EDEFEE;
+  font-weight: normal;
+}

@@ -1,0 +1,21 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDEFEE;;
+  padding: 90px 36px;
+  gap: 64px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.headerText {
+  font-size: 36px;
+  color: #333333;
+  margin: 0;
+}

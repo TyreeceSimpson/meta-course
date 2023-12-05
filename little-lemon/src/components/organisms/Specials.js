@@ -9,7 +9,7 @@ export function Specials() {
   return (
     <section className={styles.specials}>
       <header className={styles.header}>
-        <h2 className={styles.sectionTitle}>This Weeks Specials!</h2>
+        <h2>This Weeks Specials!</h2>
         <Button text="Online Menu" />
       </header>
       <div className={styles.menu}>
