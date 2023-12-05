@@ -1,5 +1,5 @@
 import { Review } from '../molecules/Review'
-import styles from './Testimonials.module.css'
+import styles from './styles/Testimonials.module.css'
 
 export function Testimonials() {
   return <section className={styles.testimonials}>

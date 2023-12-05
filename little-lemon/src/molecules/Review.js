@@ -1,5 +1,5 @@
-import image from '../../icons_assets/Mario and Adrian A.jpg'
-import styles from './Review.module.css'
+import image from '../atoms/icons_assets/Mario and Adrian A.jpg'
+import styles from './styles/Review.module.css'
 
 export function Review() {
   return (

@@ -1,4 +1,4 @@
-import styles from './Nav.module.css'
+import styles from './styles/Nav.module.css'
 import { NavLink } from "react-router-dom";
 
 export function Nav() {

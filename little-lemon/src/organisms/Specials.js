@@ -1,9 +1,9 @@
 import { MenuItem } from '../molecules/MenuItem'
-import greekSalad from '../../icons_assets/greek salad.jpg'
-import bruchetta from '../../icons_assets/bruchetta.svg'
-import lemonDessert from '../../icons_assets/lemon dessert.jpg'
-import styles from './Specials.module.css'
-import { Button } from '../molecules/Button'
+import greekSalad from '../atoms/icons_assets/greek salad.jpg'
+import bruchetta from '../atoms/icons_assets/bruchetta.svg'
+import lemonDessert from '../atoms/icons_assets/lemon dessert.jpg'
+import styles from './styles/Specials.module.css'
+import { Button } from '../atoms/Button'
 
 export function Specials() {
   return (

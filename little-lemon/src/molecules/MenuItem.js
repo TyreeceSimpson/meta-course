@@ -1,5 +1,5 @@
-import menuBasket from '../../icons_assets/basket .svg'
-import styles from './MenuItem.module.css'
+import menuBasket from '../atoms/icons_assets/basket .svg'
+import styles from './styles/MenuItem.module.css'
 
 export function MenuItem({ image, title, price, text }) {
   return (

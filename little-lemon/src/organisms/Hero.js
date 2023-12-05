@@ -1,6 +1,6 @@
-import image from '../../icons_assets/restauranfood.jpg'
-import styles from './Hero.module.css'
-import { Button } from '../molecules/Button'
+import image from '../atoms/icons_assets/restauranfood.jpg'
+import styles from './styles/Hero.module.css'
+import { Button } from '../atoms/Button'
 
 export function Hero() {
   return (

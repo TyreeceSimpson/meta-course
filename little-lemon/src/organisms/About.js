@@ -1,5 +1,5 @@
-import image from '../../icons_assets/restauranfood.jpg'
-import styles from './About.module.css'
+import image from '../atoms/icons_assets/restauranfood.jpg'
+import styles from './styles/About.module.css'
 
 export function About() {
   return (
