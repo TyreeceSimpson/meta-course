@@ -30,7 +30,7 @@ export function BookingForm(props) {
         <option>Birthday</option>
         <option>Anniversary</option>
       </select>
-      <input type="submit" value="Make Your reservation" disabled={!date || !time || !guests || !occasion }/>
+      <input type="submit" value="Make Your reservation" disabled={!date || !time || !guests || !occasion } aria-label="On Click"/>
     </form>
   )
 }
