@@ -7,15 +7,11 @@ import { About } from '../organisms/About'
 
 export function Home() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Specials />
-        <Testimonials />
-        <About />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Hero />
+      <Specials />
+      <Testimonials />
+      <About />
+    </main>
   )
 }
