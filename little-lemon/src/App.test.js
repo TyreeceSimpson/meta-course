@@ -16,3 +16,9 @@ test('Checks updateTimes', () => {
   const times = reducer([], new Date())
   expect(times.length).toBeGreaterThan(1)
 })
+
+test('Button is disabled', () => {
+  render(<BrowserRouter><Reservations /></BrowserRouter>)
+  const submitButton = screen.getByText("Make Your reservation")
+  expect(submitButton).toBeDisabled()
+})
