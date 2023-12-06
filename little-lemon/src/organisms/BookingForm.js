@@ -6,15 +6,13 @@ export function BookingForm(props) {
   const [guests, setGuests] = useState(initialState)
   const [occasion, setOccasion] = useState(initialState)
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    alert(`${date}, ${time}, ${guests}, ${occasion}`)
+  const handleSubmit = () => {
+    props.submitForm(date, time, guests, occasion)
   }
 
   function handleDateChange(e) {
     setDate(e.target.value);
-    const date = new Date(e.target.value);
-    props.updateTimes(date);
+    props.updateTimes(new Date(e.target.value));
   }
 
   return (

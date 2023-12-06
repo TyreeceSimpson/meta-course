@@ -3,6 +3,7 @@ import { Home } from './pages/Home'
 import { Reservations } from './pages/Reservations'
 import { Header } from './organisms/Header'
 import { Footer } from './organisms/Footer'
+import { ConfirmedBooking } from './organisms/ConfirmedBooking'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/reservations" element={<Reservations />}></Route>
         <Route path="/order" element={<Home />}></Route>
         <Route path="/login" element={<Home />}></Route>
+        <Route path="/confirmation" element={<ConfirmedBooking />}></Route>
       </Routes>
       <Footer />
     </>

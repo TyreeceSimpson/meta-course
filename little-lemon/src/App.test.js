@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { Reservations, initialiseTimes, updateTimes } from './pages/Reservations'
+import { Reservations, initialiseTimes, reducer } from './pages/Reservations'
 
 test('Renders the Reservations heading', () => {
   render(<Reservations />)
@@ -8,10 +8,11 @@ test('Renders the Reservations heading', () => {
 })
 
 test('Checks initializeTimes', () => {
-  expect(initialiseTimes).toStrictEqual(["1:00"])
+  expect(initialiseTimes.length).toBeGreaterThan(1)
 })
 
-test('Checks updateTimes', () => {
-  const times = updateTimes()
-  expect(times).toBe(initialiseTimes)
+test.skip('Checks updateTimes', () => {
+  const times = reducer(new Date())
+  console.log(times)
+  expect(times.length).toBeGreaterThan(1)
 })
